@@ -1,0 +1,177 @@
+body{
+  text-align: center;
+}
+big{
+  color:white;
+}
+.scroll{
+  padding-left: 15%;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image{
+  transform: rotate(25deg);
+  margin-left: 180px;
+  position: absolute;
+  right: 18%;
+  z-index: 1;
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 10%;
+  margin-top: -5%;
+}
+.cta-head{
+  font-family: "Montserrat-black";
+  line-height: 1.5;
+  font-size: 2.5rem
+}
+
+/* Footer */
+#footer{
+  background-color: #dddddd;
+
+  padding:1% 5%;
+
+}
+.foot-icons{
+  margin: 10px;
+}
+
+@media (max-width: 991px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    z-index: 1;
+
+  }
+
+}
+#features{
+  background-color: white;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+}
+
+h2{
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  font-weight: 300;
+  color: black;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+h1, h3{
+    line-height: 1.5;
+    font-weight: bold;
+}
+.container{
+  padding: 0 2.5% 0 2.5%;
+
+}
+
+.container-fluid{
+  padding: 2% 15%;
+  padding-bottom: 6%;
+}
+
+
+/* navigation bar */
+.navbar{
+padding-bottom: 0.7rem;
+}
+
+.navbar-brand{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+.nav-link{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.navbar-nav{
+  margin-left: 330px;
+
+}
+
+
+/* Features */
+
+#features{
+  padding: 3% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  padding: 5%;
+}
+.side{
+  padding: 35px 5px 15px 5px;
+}
+
+
+p{
+  color: grey;
+}
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+
+/* Testimonal */
+#testimonal{
+  padding: 5% 15%;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.testimonal-image{
+  border-radius: 5%;
+  margin: 10px;
+}
+
+#press{
+  background-color: #ff4c68;
+  padding-bottom: 5%;
+}
+
+.press-images{
+  margin: 10px;
+  border-radius: 5%;
+}
+
+.giphy{
+  border-radius: 8%;
+  border-style: inset;
+  border-color: black;
+}
+  /* sai */
